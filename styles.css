@@ -1,0 +1,67 @@
+body{
+  background-image:url("walp.jpg");
+  margin-top: 70px;
+
+}
+.divison1{
+  position:static;
+  width: 350px;
+  height: 500px;
+  margin: auto;
+  border: solid 1.7px #766161;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+}
+.avatar{
+  position: relative;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+}
+.login_text{
+  font-size: 40px;
+  text-align: center;;
+  color: #C9CCD5;
+}
+
+.page input{
+  width: 98%;
+  height: 30px;
+  background:transparent;
+  border-style: solid;
+  border-radius: 5px;
+
+
+}
+.page label{
+  color: #e5e5e5;
+  height: 30px;
+}
+button{
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  margin: 30px 0;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover{
+  background: #FFD371;
+}
+.page a{
+  text-decoration: none;
+  color: #87A7B3;
+}
+::placeholder {
+  color: #0CECDD;
+  opacity: 1
+}
